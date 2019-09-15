@@ -1,0 +1,19 @@
+{
+    "name": "medusaapp/personality",
+    "description": "Basic personality module for MEDUSA Core",
+    "require": {
+    },
+    "license": "GNU LGPL v3",
+    "authors": [
+        {
+            "name": "David Weiner",
+            "email": "David.L.Weiner30030@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Personalities\\": "src/"
+        }
+    }
+}
