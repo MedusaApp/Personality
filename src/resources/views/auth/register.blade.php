@@ -287,7 +287,8 @@
             $select_state = $('#state_province').selectize({
                 valueField: 'name',
                 labelField: 'name',
-                searchField: ['name']
+                searchField: ['name'],
+                create: true
             });
             select_country  = $select_country[0].selectize;
             select_state = $select_state[0].selectize;
