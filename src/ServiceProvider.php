@@ -1,7 +1,7 @@
 <?php
 namespace Personality;
 
-class ServiceProvider extends Illuminate\Support\ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
      * Register bindings in the container.
