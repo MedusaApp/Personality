@@ -1,4 +1,4 @@
-@extends('package::layouts.app')
+@extends('personality::layouts.app')
 
 @section('content')
 <div class="container-fluid">
