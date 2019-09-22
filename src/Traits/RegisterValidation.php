@@ -1,5 +1,5 @@
 <?php
-namespace Personality\Auth;
+namespace Personality\Traits;
 
 
 trait RegisterValidation

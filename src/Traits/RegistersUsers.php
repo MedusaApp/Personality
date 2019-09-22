@@ -1,5 +1,5 @@
 <?php
-namespace Personality\Auth;
+namespace Personality\Traits;
 
 use App\User;
 use Illuminate\Auth\Events\Registered;
@@ -14,7 +14,7 @@ trait RegistersUsers
      */
     public function showRegistrationForm()
     {
-        return view('personality::auth.register');
+        return view('auth.register');
     }
 
     /**
