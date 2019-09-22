@@ -2,10 +2,10 @@
     "name": "medusaapp/personality",
     "description": "Basic personality module for MEDUSA Core",
     "require": {
-        "illuminate/support": "5.8.*",
-        "illuminate/database": "5.8.*",
-        "illuminate/contracts": "5.8.*",
-        "illuminate/auth": "5.8.*"
+        "MedusaApp/Views": "dev-master",
+        "MedusaApp/database": "dev-master",
+        "MedusaApp/registration": "dev-master",
+        "MedusaApp/auth": "dev-master"
     },
     "license": "GNU LGPL v3",
     "authors": [
