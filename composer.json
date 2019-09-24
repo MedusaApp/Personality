@@ -5,7 +5,8 @@
         "MedusaApp/Views": "dev-master",
         "MedusaApp/database": "dev-master",
         "MedusaApp/registration": "dev-master",
-        "MedusaApp/auth": "dev-master"
+        "MedusaApp/auth": "dev-master",
+        "MedusaApp/Public": "dev-master"
     },
     "license": "GNU LGPL v3",
     "authors": [
