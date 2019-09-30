@@ -15,23 +15,5 @@
             "email": "David.L.Weiner30030@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:MedusaApp/Registration.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:MedusaApp/Views.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:MedusaApp/Auth.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:MedusaApp/Database.git"
-        }
-    ]
+    "minimum-stability": "dev"
 }
