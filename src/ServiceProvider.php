@@ -20,6 +20,8 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function boot()
     {
-        $this->app->make('Illuminate\Contracts\Http\Kernel')->pushMiddleware('Personality\Http\Middleware\CheckIfActive');
+        if (config('medusa.membership_approve')) {
+            $this->app->make('Illuminate\Contracts\Http\Kernel')->pushMiddleware('Personality\Http\Middleware\CheckIfActive');
+        }
     }
 }
