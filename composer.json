@@ -8,12 +8,25 @@
         "MedusaApp/auth": "dev-master",
         "MedusaApp/Public": "dev-master"
     },
-    "license": "GNU LGPL v3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "David Weiner",
             "email": "David.L.Weiner30030@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Personality\\Http": "src/Http",
+            "PersonalityCore\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PersonalityCore\\ServiceProvider"
+            ]
+        }
+    }
 }
