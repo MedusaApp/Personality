@@ -1,8 +1,6 @@
 <?php
 namespace PersonalityCore;
 
-use Personality\Http\Middleware\CheckIfActive;
-
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
@@ -22,6 +20,6 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function boot()
     {
-        $this->app['router']->middleware('isActive', CheckIfActive::class);
+        $this->app->make('Illuminate\Contracts\Http\Kernel')->pushMiddleware('Personality\Http\Middleware\CheckIfActive');
     }
 }
