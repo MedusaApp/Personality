@@ -6,7 +6,8 @@
         "MedusaApp/database": "dev-master",
         "MedusaApp/registration": "dev-master",
         "MedusaApp/auth": "dev-master",
-        "MedusaApp/Public": "dev-master"
+        "MedusaApp/Public": "dev-master",
+        "MedusaApp/User": "dev-master"
     },
     "license": "GPL-3.0-or-later",
     "authors": [
