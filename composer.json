@@ -7,7 +7,9 @@
         "MedusaApp/registration": "dev-master",
         "MedusaApp/auth": "dev-master",
         "MedusaApp/Public": "dev-master",
-        "MedusaApp/User": "dev-master"
+        "MedusaApp/User": "dev-master",
+      "MedusaApp/Routes": "dev-master",
+      "MedusaApp/RequireActive": "dev-master"
     },
     "license": "GPL-3.0-or-later",
     "authors": [
@@ -16,18 +18,5 @@
             "email": "David.L.Weiner30030@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Personality\\Http\\": "src/Http",
-            "PersonalityCore\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "PersonalityCore\\ServiceProvider"
-            ]
-        }
-    }
+    "minimum-stability": "dev"
 }
